@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Compiler of Expressions</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilo.css') }}">
+	</head>
+	
+	<body>
+		<div class="pagina">
+			<h1>Compiler of Expressions</h1><br>
+			<h2>Digite manualmente seu codigo:</h2><br>
+			<form method="POST" action="/manual-insert-compile">
+				<div class="alignColumn">
+					<textarea name="user_text" placeholder="Digite o código aqui" value="user_text"></textarea><br> 
+					
+					<br><input class="compileButton" type="submit"/>
+				</div>
+			</form>
+		</div>
+		
+	</body>
+</html>

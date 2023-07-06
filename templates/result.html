@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Compiler of Expressions</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilo.css') }}">
+	<style>@import url('https://fonts.cdnfonts.com/css/source-code-pro');</style>
+</head>
+
+<body>
+    <div class="pagina">
+        <h1>Compiler of Expressions</h1><br>
+        <div class="containerResult">
+            <div>
+                <h3>Erro Compilador</h3>
+                <div class="centerText">{{ erro }}</div>
+            </div>
+            <div>
+                <h3>Entrada</h3>
+                <div class="centerText">{{ entrada2 }}</div>
+            </div>
+            <div>
+                <h3>Quadrupla</h3>
+                <div class="centerText">{{ quadrupla }}</div>
+            </div>
+            <div>
+                <h3>Código intermediário</h3>
+                <div class="centerText">{{ codInterGlobal }}</div>
+            </div>
+            <div>
+                <h3>Código intermediário otimizado</h3>
+                <div class="centerText">{{ codInterOtimGlobal }}</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+k: .word
+l: .word
+p: .word
+w: .word
+k: .word
+V: .word
+a: .word
+sub $t1, 9, 1
+li $t2, $t1, 4
+div $t2, 4
+li $t3, l, $t2
+mult $t3, $t2
+add $t4, 4, $t3
+lw p, $t4
+add $t1, w, 3
+lw w, $t1
+add $t1, l, 3
+lw k, 1
+lw V, k
+lw a, k

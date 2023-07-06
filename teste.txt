@@ -1,0 +1,8 @@
+float k;
+int l;
+int p = 4+l*(9-1)/4;
+int w = w+(389.1);
+l+(389);
+float k = 0+1;
+float V = k;
+float a = k/1; 

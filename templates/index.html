@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compiler of Expressions</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilo.css') }}">
+    </head>
+
+    <body>
+        <div class="pagina">
+            <h1>Compiler of Expressions</h1><br><br>
+
+            <h2>Escolha um arquivo txt com instruções da linguagem C ou clique em digitar manualmente:</h2><br>
+            <div class="metanav">
+                <form method="POST" enctype="multipart/form-data" action="/">
+                    <input type="file" name="file">
+                    <input type="submit" value="Enviar">
+                </form><br>             
+
+                <br><form method="POST" action="/manual-insert">
+                    <input type="submit" value="Digitar manualmente">
+                </form><br>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
